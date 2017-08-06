@@ -1,0 +1,36 @@
+#command{
+   font-size: 2vh;
+   color: #00ff21;
+   font-family: 'Lucida Console';
+   vertical-align: bottom;
+   min-width: 95vw;
+   min-height: 90vh;
+   overflow: auto;
+}
+
+td {
+    padding: 0vh 2vh 0vh 2vh;
+}
+
+td.first_cell{
+    padding: 0vh 2vh 0vh 0vh;
+}
+
+#commandInput {
+   font-size: 2vh;
+   background-color: #000000;
+   color: #00ff21;
+   font-family: 'Lucida Console';
+   min-width: 95vw;
+   outline: none;
+   border: none;
+   resize: none;
+   white-space: nowrap;
+   overflow-y: hidden;
+   height:2vh;
+}
+
+#caret{
+    vertical-align:top;
+    height:2vh;
+}
